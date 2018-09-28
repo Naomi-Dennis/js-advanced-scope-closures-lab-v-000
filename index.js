@@ -30,7 +30,7 @@ function produceTipCalculator(rate){
 
 class Driver{
   constructor(name){ this.name = name || "NAME NOT ASSIGNED";  this.id = 0; this._assignId() }
-  _assignId(){ this.id = Driver.__proto.id; Driver.__proto__.id++; }
+  _assignId(){ this.id = Driver.__proto__.id; Driver.__proto__.id++; }
 }
 Driver.__proto__.id = 0
 
