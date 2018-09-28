@@ -8,12 +8,12 @@ function produceDrivingRange(blockRange){
     start.pop()
     finish.pop()
     finish.pop()
- 
+  console.log(start, finish)
     
     start = Number(start)
     finish = Number(finish)
     
-    console.log(start, finish)
+   
     let dist = finish - start 
     
     return (dist <= blockRange ? dist + " blocks out of range" : 0)
