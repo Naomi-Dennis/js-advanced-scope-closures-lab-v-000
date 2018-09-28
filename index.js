@@ -21,3 +21,9 @@ function produceDrivingRange(blockRange){
     
   }
 }
+
+function produceTipCalculator(rate){
+  return (tip) => {
+    return tip * rate 
+  }
+}
