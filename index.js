@@ -14,9 +14,10 @@ function produceDrivingRange(blockRange){
     finish = Number(finish.join(''))
     
 
-    let dist = (finish - start)/5
+    let dist = Math.abs(finish - start)
+    let range = Math.abs(dist - blockRange)
 
-    return (dist <= blockRange ? dist + " blocks out of range" : 0)
+    return (range <= blockRange ? range + " blocks out of range" : 0)
     
   }
 }
