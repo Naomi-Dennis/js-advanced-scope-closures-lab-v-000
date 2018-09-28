@@ -1,6 +1,6 @@
 function produceDrivingRange(blockRange){
   return (start, finish) => { 
-  
+   console.log(start, finish)
     start = start.split()
     finish = finish.split()
     start.pop()
