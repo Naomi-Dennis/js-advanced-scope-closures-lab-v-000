@@ -33,6 +33,5 @@ class Driver{
 }
 
 function produceDriver(){
-   return () => { return Driver; } 
-}
+   return  Driver;  
 }
