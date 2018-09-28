@@ -28,4 +28,11 @@ function produceTipCalculator(rate){
   }
 }
 
-function produceDriver()
+class Driver{
+  constructor(name){ this.name = name || "NAME NOT ASSIGNED" } 
+}
+
+function produceDriver(){
+   return () => { return Driver; } 
+}
+}
